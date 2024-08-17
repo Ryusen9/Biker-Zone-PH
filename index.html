@@ -10,7 +10,50 @@
     <title>Biker Zone</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="w-full fixed top-0 left-0">
+            <div class="nav-container py-3 px-5 md:px-8 lg:px-28 flex justify-between items-center">
+                <div class="logo">
+                    <p class="text-2xl md:text-3xl font-bold text-white">Biker <span class="text-rose-500">Zone</span></p>
+                </div>
+
+                <div class="hamburger md:hidden">
+                    <i class="ri-menu-line text-3xl text-white"></i>
+                </div>
+
+                <div class="menu-contianer hidden md:block w-[50%] md:[40%]">
+                    <ul class="flex justify-between items-center gap-4">
+                        <li><a href="#" class="font-medium hover:text-rose-500 duration-200 ease-in-out text-white">Home</a></li>
+                        <li><a href="#" class="font-medium hover:text-rose-500 duration-200 ease-in-out text-white">Shop</a></li>
+                        <li><a href="#" class="font-medium hover:text-rose-500 duration-200 ease-in-out text-white">News</a></li>
+                        <li><a href="#" class="font-medium hover:text-rose-500 duration-200 ease-in-out text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <button class="btn hidden md:block bg-gradient-to-t from-rose-400 to-rose-500 font-medium text-white shadow-lg shadow-rose-400 border-none">Login</button>
+            </div>
+        </nav>
+
+        <div class="hero min-h-screen" style="background-image: url(./others/pexels-giorgio-de-angelis-482403-1413412.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Keep Your Ride Safe At Every Time</h1>
+                    <p class="mb-5">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor 
+                        do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <button class="btn md:btn-lg bg-gradient-to-tr from-rose-500 to-rose-600 border-none font-semibold text-white shadow-md shadow-rose-400 hover:bg-gradient-to-bl hover:from-rose-600 hover:to-rose-700 duration-200 animate-fade-down text-white">Purchase Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="featured-container"></div>
+        </section>
+    </main>
 
     <script src="main.js"></script>
 </body>
