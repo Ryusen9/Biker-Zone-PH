@@ -43,7 +43,7 @@
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor 
                         do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
-                    <button class="btn md:btn-lg bg-gradient-to-tr from-rose-500 to-rose-600 border-none font-semibold text-white shadow-md shadow-rose-400 hover:bg-gradient-to-bl hover:from-rose-600 hover:to-rose-700 duration-200 animate-fade-down text-white">Purchase Now</button>
+                    <button class="btn md:btn-lg bg-gradient-to-tr from-rose-500 to-rose-600 border-none font-semibold text-white shadow-md shadow-rose-400 hover:bg-gradient-to-bl hover:from-rose-600 hover:to-rose-700 duration-200 animate-fade-down">Purchase Now</button>
                 </div>
             </div>
         </div>
@@ -51,8 +51,20 @@
 
     <main>
         <section>
-            <div class="featured-container"></div>
+            <div class="featured-container w-full py-20 px-6 flex flex-col justify-center items-center text-center">
+                <p class="text-4xl font-semibold mb-4">Fetured Bikes In This Year</p>
+                <p class="text-lg font-medium">Best bike collection</p>
+                <hr class="border-2 w-28 border-rose-500 rounded-full mb-7">
+
+                <div class="featured-card-container w-full grid gap-5 grid-rows-3 md:grid-rows-1 md:grid-cols-3">
+                    <div class="flex justify-center items-center mx-auto"><img src="./slider/bike2.png" alt=""></div>
+                    <div class="flex justify-center items-center mx-auto"><img src="./slider/bike3.png" alt=""></div>
+                    <div class="flex justify-center items-center mx-auto"><img src="./slider/bike4.png" alt=""></div>
+                </div>
+            </div>
         </section>
+
+        
     </main>
 
     <script src="main.js"></script>
