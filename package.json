@@ -20,6 +20,7 @@
     "vite": "^5.4.1"
   },
   "dependencies": {
+    "pagedone": "^1.2.1",
     "tailwindcss-animated": "^1.1.2"
   }
 }

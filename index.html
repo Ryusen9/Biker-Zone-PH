@@ -7,18 +7,19 @@
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"/>
+    <link href="../path/to/src/pagedone.css"/>
     <title>Biker Zone</title>
 </head>
 <body>
     <header>
-        <nav class="w-full fixed top-0 left-0">
+        <nav class="w-full fixed top-0 left-0 z-10">
             <div class="nav-container py-3 px-5 md:px-8 lg:px-28 flex justify-between items-center">
                 <div class="logo">
-                    <p class="text-2xl md:text-3xl font-bold text-white">Biker <span class="text-rose-500">Zone</span></p>
+                    <p class="text-2xl md:text-3xl font-bold text-slate-400">Biker <span class="text-rose-500">Zone</span></p>
                 </div>
 
                 <div class="hamburger md:hidden">
-                    <i class="ri-menu-line text-3xl text-white"></i>
+                    <i class="ri-menu-line text-3xl text-slate-400"></i>
                 </div>
 
                 <div class="menu-contianer hidden md:block w-[50%] md:[40%]">
@@ -64,9 +65,76 @@
             </div>
         </section>
 
-        
+        <section>
+            <div class="latest-news-contaier text-center px-5">
+                <p class="text-5xl font-semibold mb-5">Latest News</p>
+
+                <div class="latest-card-container grid gap-5 grid-rows-3 md:grid-rows-1 md:grid-cols-3">
+                    <div class="card px-5 py-5 bg-slate-100">
+                        <img src="./others/latest1.png" alt="" class="shadow-xl animate-jump-in animate-delay-500 rounded-xl">
+
+                        <div class="text mt-7 flex flex-col text-left">
+                            <p class="text-2xl font-bold uppercase mb-3">Ducati XDIAVEL S-73</p>
+
+                            <p class="text-slate-500 font-medium mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+
+                            <button class="relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-medium text-rose-600 transition duration-300 ease-out border-2 border-rose-500 rounded-lg shadow-md group w-[55%] mx-auto">
+                            <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-rose-500 group-hover:translate-x-0 ease">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                            </span>
+                            <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-rose-500 transition-all duration-300 transform group-hover:translate-x-full ease">Learn More</span>
+                            <span class="relative text-base font-semibold invisible">Learn More</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card px-5 py-5 bg-slate-100">
+                        <img src="./others/latest2.png" alt="" class="shadow-xl animate-jump-in animate-delay-500 rounded-xl">
+
+                        <div class="text mt-7 flex flex-col text-left">
+                            <p class="text-2xl font-bold uppercase mb-3">Motorcycles & Scooters</p>
+
+                            <p class="text-slate-500 font-medium mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+
+                            <button class="relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-medium text-rose-600 transition duration-300 ease-out border-2 border-rose-500 rounded-lg shadow-md group w-[55%] mx-auto">
+                            <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-rose-500 group-hover:translate-x-0 ease">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                            </span>
+                            <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-rose-500 transition-all duration-300 transform group-hover:translate-x-full ease">Learn More</span>
+                            <span class="relative text-base font-semibold invisible">Learn More</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card px-5 py-5 bg-slate-100">
+                        <img src="./others/latest3.png" alt="" class="shadow-xl animate-jump-in animate-delay-500 rounded-xl">
+
+                        <div class="text mt-7 flex flex-col text-left">
+                            <p class="text-2xl font-bold uppercase mb-3">2021 Honda CBR500R</p>
+
+                            <p class="text-slate-500 font-medium mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+
+                            <button class="relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-medium text-rose-600 transition duration-300 ease-out border-2 border-rose-500 rounded-lg shadow-md group w-[55%] mx-auto">
+                            <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-rose-500 group-hover:translate-x-0 ease">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                            </span>
+                            <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-rose-500 transition-all duration-300 transform group-hover:translate-x-full ease">Learn More</span>
+                            <span class="relative text-base font-semibold invisible">Learn More</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="main.js"></script>
+    <script src="../path/to/src/pagedone.js"></script>
 </body>
 </html>
